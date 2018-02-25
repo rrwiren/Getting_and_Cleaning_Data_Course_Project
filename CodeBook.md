@@ -12,9 +12,7 @@ The outcome is a file called **average_data.txt**.
 
 **average_data.txt** contains average measures for 30 subjects and 6 activity types stored in 180 rows.
 
-There are 68 columns, first column is the subject, 2nd is the activity, columns 2 to 68 contains the features with either *mean()* or *std()* included as part of their names.
-
-Feature Selection
+There are 68 columns, first column is the subject, 2nd is the activity, columns 2 to 68 contains the features with either *mean()* or *std()* included as part of their names. There is a description included for the features in the input data.
 
 **run_analyis.R** includes the following 13 variables:
 
