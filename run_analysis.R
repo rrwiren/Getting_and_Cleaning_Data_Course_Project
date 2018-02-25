@@ -2,7 +2,6 @@
 # plyr: Tools for Splitting, Applying and Combining Data
 # https://cran.r-project.org/web/packages/plyr/index.html
 
-
 library(plyr)
 
 # 1. Merges the training and the test sets to create one data set.
@@ -53,6 +52,7 @@ activities <- read.table("activity_labels.txt")
 y_data[, 1] <- activities[y_data[, 1], 2]
 names(y_data) <- "activity"
 
+
 # 4. Appropriately labels the data set with descriptive variable names.
 ############################################################################
 
@@ -62,13 +62,16 @@ names(subject_data) <- "subject"
 # Creates a variable with data combined to one data set
 combined_data <- cbind(x_data, y_data, subject_data)
 
+
 # 5. From the data set in step 4, creates a second, independent tidy data set 
 #    with the average of each variable for each activity and each subject.
 ############################################################################
 
-# Creates a variable with average data, not including subject and activity columns 
+# Creates a variable with average data, not including subject and activity columns
 average_data <- ddply(combined_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
 # Creates a file with tidy average data in a table format with descriptive 
 # label in first row of each column starting with subject and then activity
 write.table(average_data, "average_data.txt", row.name=FALSE)
+
+# ddply : Split Data Frame, Apply Function, And Return Results In A Data Frame
