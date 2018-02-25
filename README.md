@@ -1,4 +1,4 @@
-# Getting and Cleaning Data - Course Project
+# Getting and Cleaning Data - Course Project week 4
 
 This repository is hosting my week 4 assignment for the Getting and Cleaning Data course which is part of the Johns Hopkins Data Science Specialization at Coursera.
 
@@ -11,13 +11,13 @@ UCI - Machine Learning Repository -
 
 
 
-## Description of files
+## Description of the included files
 
-1. run_analysis.R - the actual R script containing all the code to perform the analysis and produce the outcome
+1. **run_analysis.R** - the actual R script containing all the code to perform the analysis and produce the outcome
 
-1. average_data.txt - the outcome of when running the run_analysis.R script, a tidy dataset according to instructions 
+1. **average_data.txt** - the outcome of when running the run_analysis.R script, a tidy dataset according to instructions 
 
-1. README.md - this file
+1. **README.md** - this file
 
-1. CodeBook.md - a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data
+1. **CodeBook.md** - a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data
 
