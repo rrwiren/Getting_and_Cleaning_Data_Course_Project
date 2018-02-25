@@ -9,15 +9,17 @@ The data linked to from the course website represent data collected from the acc
 UCI - Machine Learning Repository - 
 [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
+[The raw data input file] 
+(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 
-## Description of the included files
+## Description of the included files in this repository
 
 1. **run_analysis.R** - the actual R script containing all the code to perform the analysis and produce the outcome
 
 1. **average_data.txt** - the outcome of when running the run_analysis.R script, a tidy dataset according to instructions 
 
-1. **README.md** - this file
+1. **README.md** - this file, general description for this repository
 
 1. **CodeBook.md** - a code book that describes the variables, the data, and any transformations or work that was performed to clean up the data
 
@@ -31,4 +33,5 @@ You should create one R script called run_analysis.R that does the following.
 1. Uses descriptive activity names to name the activities in the data set
 1. Appropriately labels the data set with descriptive variable names.
 1. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 
