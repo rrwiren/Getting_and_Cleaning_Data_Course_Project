@@ -22,12 +22,14 @@ There are 68 columns, first column is the subject, 2nd is the activity, columns 
 * *y_test*, 
 * *subject_train* and
 * *subject_test* 
-* contains data from the downloaded input files.
+
+contains data from the downloaded input files.
 
 * *x_data*, 
 * *y_data* and
 * *subject_data* 
-* combines the datasets.
+
+combines the datasets.
 
 * *features* containes the descriptive names.
 
