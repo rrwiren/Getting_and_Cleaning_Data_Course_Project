@@ -9,8 +9,7 @@ The data linked to from the course website represent data collected from the acc
 UCI - Machine Learning Repository - 
 [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-[The raw data input file] 
-(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+[The raw data input file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 
 ## Description of the included files in this repository
