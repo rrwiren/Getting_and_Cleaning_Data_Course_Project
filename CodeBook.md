@@ -8,11 +8,13 @@ The input data is found in this zipped [input file](https://d396qusza40orc.cloud
 The outcome is a file called **average_data.txt**.
 
 
-### General description of the content in the files 
+### Content descriptions for the two main files 
 
 **average_data.txt** contains average measures for 30 subjects and 6 activity types stored in 180 rows.
 
-There are 68 columns, first column is the subject, 2nd is the activity, columns 2 to 68 are the measured mean() and std() values (features).
+There are 68 columns, first column is the subject, 2nd is the activity, columns 2 to 68 contains the features with either *mean()* or *std()* included as part of their names.
+
+Feature Selection
 
 **run_analyis.R** includes the following 13 variables:
 
