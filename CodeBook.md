@@ -14,7 +14,7 @@ The outcome is a file called **average_data.txt**.
 
 There are 68 columns, first column is the subject, 2nd is the activity, columns 2 to 68 are the measured mean() and std() values (features).
 
-**run_analyis.R** includes the following variables:
+**run_analyis.R** includes the following 13 variables:
 
 *x_train*, 
 *y_train*, 
