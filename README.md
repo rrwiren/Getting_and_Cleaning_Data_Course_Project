@@ -14,6 +14,8 @@ UCI - Machine Learning Repository -
 
 ## Description of the included files in this repository
 
+The code in file run_analysis.R assumes that the Samsung data is in your working directory.
+
 1. **run_analysis.R** - the actual R script containing all the code to perform the analysis and produce the outcome
 
 1. **average_data.txt** - the outcome of when running the run_analysis.R script, a tidy dataset according to instructions 
