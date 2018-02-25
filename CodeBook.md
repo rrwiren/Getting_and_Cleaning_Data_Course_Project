@@ -37,5 +37,21 @@ combines the datasets.
 
 * *combined_data* combines *x_data*, *y_data* and *subject_data*
 
-The variable *average_data* contains the relevant averages that are stored in the **average_data.txt* output file. 
+The variable *average_data* contains the relevant averages that are stored in the **average_data.txt* output file.
+
+The **run_analyis.R** script also includes descriptions for each step embedded in the file.  
+
+----------------------------------------------------
+
+### Tidy Data according to article by Hadley Wickham
+
+*Tidy data is a standard way of mapping the meaning of a dataset to its structure. A dataset is
+messy or tidy depending on how rows, columns and tables are matched up with observations,
+variables and types. In* **tidy data**:
+
+1. Each variable forms a column.
+1. Each observation forms a row.
+1. Each type of observational unit forms a table.
+
+[Link to article](http://vita.had.co.nz/papers/tidy-data.pdf)
 
