@@ -33,7 +33,7 @@ combines the datasets.
 
 * *features* containes the descriptive names.
 
-* *mean_and_std_features* extracts only mean() OR std()
+* *mean_and_std_features* extracts only the features with either mean() OR std() in their names.
 
 * *combined_data* combines *x_data*, *y_data* and *subject_data*
 
