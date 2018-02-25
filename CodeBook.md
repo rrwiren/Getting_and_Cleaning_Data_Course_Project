@@ -23,7 +23,7 @@ There are 68 columns, first column is the subject, 2nd is the activity, columns 
 * *subject_train* and
 * *subject_test* 
 
-contains data from the downloaded input files.
+contains dataset from the downloaded input files.
 
 * *x_data*, 
 * *y_data* and
@@ -35,10 +35,7 @@ combines the datasets.
 
 * *mean_and_std_features* extracts only mean() OR std()
 
-* *combined_data* combines 
-* *x_data*, 
-* *y_data* and 
-* *subject_data*
+* *combined_data* combines *x_data*, *y_data* and *subject_data*
 
 The variable *average_data* contains the relevant averages that are stored in the **average_data.txt* output file. 
 
