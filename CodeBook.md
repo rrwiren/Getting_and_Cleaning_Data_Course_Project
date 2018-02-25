@@ -10,33 +10,33 @@ The outcome is a file called **average_data.txt**.
 
 ### General description of the content in the files 
 
-**average_data.txt* contains average measures for 30 subjects and 6 activity types stored in 180 rows.
+**average_data.txt** contains average measures for 30 subjects and 6 activity types stored in 180 rows.
 
 There are 68 columns, first column is the subject, 2nd is the activity, columns 2 to 68 are the measured mean() and std() values (features).
 
 **run_analyis.R** includes the following 13 variables:
 
-*x_train*, 
-*y_train*, 
-*x_test*, 
-*y_test*, 
-*subject_train* and
-*subject_test* 
-containing data from the downloaded input files.
+* *x_train*, 
+* *y_train*, 
+* *x_test*, 
+* *y_test*, 
+* *subject_train* and
+* *subject_test* 
+* contains data from the downloaded input files.
 
-*x_data*, 
-*y_data* and
-*subject_data* 
-combining the datasets.
+* *x_data*, 
+* *y_data* and
+* *subject_data* 
+* combines the datasets.
 
-*features* containing the right names/labels.
+* *features* containes the descriptive names.
 
-*mean_and_std_features*, for extracting only mean() OR std()
+* *mean_and_std_features* extracts only mean() OR std()
 
-*combined_data* combining 
-*x_data*, 
-*y_data* and 
-*subject_data*
+* *combined_data* combines 
+* *x_data*, 
+* *y_data* and 
+* *subject_data*
 
 The variable *average_data* contains the relevant averages that are stored in the **average_data.txt* output file. 
 
